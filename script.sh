@@ -13,7 +13,7 @@ cp ./config__files/ssh/Banner /etc/Banner
 systemctl restart sshd
 
 
-#Création d'un utilisateur
+#Création d'un utilisateur et ajout de celui-ci dans le gorupe root
 
 printf "Création d'un utilisateur. Entrez le nom d'utilisateur désiré :\n"
 
